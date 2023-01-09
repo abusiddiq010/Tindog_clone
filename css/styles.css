@@ -1,0 +1,201 @@
+
+
+#title{
+    background-color: #cf4c68;
+    color: #fff;
+    padding: 0 15% 7%;
+   
+}
+h1{
+    font-family: "montserrat-Balck 900";
+    font-size:3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+
+/*Navigation bar style*/ 
+
+
+.navbar{
+    padding-bottom: 5%;
+}
+.navbar-brand{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Balck 900";
+    font-size : 1.2rem ;
+}
+
+
+/*Download buttons*/
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/*title-image*/
+
+.title-image{
+    height: 80%;
+    width:20%;
+    transform: rotate(20deg);
+    position:absolute;
+}
+
+/*features*/
+
+.emoji{
+    color:#cf8172;
+    margin-bottom:1rem;
+}
+
+.emoji:hover {
+    color:#cf4c68;
+}
+#features{
+    padding: 3% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+.feature-box{
+    padding:4.5%;
+    text-align: center;
+}
+
+h3{ 
+    font-family: "montserrat-black 900";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+    
+}
+
+/* testimonial section*/
+
+#testimonials{
+    background-color: #cf8172;
+    text-align: center;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+    
+}
+
+.testimonial-text{
+    font-family: "Montserrat-Balck 900";
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+/*press section*/
+
+#press{
+    background-color: #cf8172;
+    padding-bottom:3rem;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing scetion */
+
+#pricing {
+    padding:7% 15%;
+    text-align: center;
+}
+
+.pricing-heading, .card-body h2{
+    font-family: "montserrat-Black 900";
+    font-size: 3rem;
+}
+
+.pricing-col{
+    padding:3% 2%;
+}
+
+.card-heading{
+    font-family: "montserrat-Black 900";
+    font-size: 3rem;
+   
+}
+
+
+/* call to action */
+
+#cta{
+    text-align: center;
+    background-color: #cf4c68;
+    padding: 7% 15%;
+}
+
+.cta-text{
+    font-family: "montserrat-Balck 900";
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.footer-images{
+    margin: 8px 0;
+}
+.icon{
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width:1000px){
+    .Big-heading{
+        text-align: left;
+    }
+
+    #title{
+        text-align: center;
+        
+    }
+    .title-image{
+        height: 100%;
+        width: 30%;
+        position: static;
+        transform: rotate(0);
+    }
+
+    .testimonial-text{
+        font-size: 2rem;
+    }
+
+    .cta-text{
+        font-size: 2rem;
+    }
+}
+
+
